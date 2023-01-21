@@ -1,0 +1,134 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Food_Ordering_Project.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Gotur - [Admin]</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="CodedThemes">
+    <meta name="keywords" content=" Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="author" content="CodedThemes">
+
+  
+ 
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../assets/icon/themify-icons/themify-icons.css">
+
+    <link rel="stylesheet" type="text/css" href="../assets/icon/icofont/css/icofont.css">
+ 
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mCustomScrollbar.css">
+ 
+    <link rel="stylesheet" type="text/css" href="../assets/datatables/css/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/datatables/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/datatables/css/icon-font.min.css">
+
+
+    <script type="text/javascript" src="../assets/js/jquery/jquery.min.js"></script>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       
+                         <div class >
+                            <a href="Dashboard.aspx">
+                                <img class="img-fluid" src="../assets/images/logo.png" alt="Theme-Logo" />
+                            </a>
+                            <a class="mobile-options">
+                                <i class="ti-more"></i>
+                            </a>
+                        </div>
+
+                        <div class="navbar-container container-fluid">
+                      
+                            <ul class="nav-right">
+                                
+                                <li class="user-profile header-notification">
+                                    <a href="#!">
+                                        
+                                        <span>Admin</span>
+                                        <i class="ti-angle-down"></i>
+                                    </a>
+                                    <ul class="show-notification profile-notification">
+                                       
+                                        <li>
+                                            <asp:LinkButton ID="lbLogout" runat="server" OnClick="lbLogout_Click"
+                                                CausesValidation="false">
+                                                <i class="ti-layout-sidebar-left"></i>Logout
+                                            </asp:LinkButton>
+                                           
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            
+
+                                </ul>
+
+                           
+                                </li>
+                                </ul>
+                           
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+    </form>
+
+    
+    <script type="text/javascript" src="../assets/js/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../assets/js/popper.js/popper.min.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <script type="text/javascript" src="../assets/js/modernizr/modernizr.js"></script>
+
+    <script src="../assets/pages/widget/amchart/amcharts.min.js"></script>
+    <script src="../assets/pages/widget/amchart/serial.min.js"></script>
+
+    <script type="text/javascript " src="../assets/pages/todo/todo.js "></script>
+
+    <script type="text/javascript" src="../assets/pages/dashboard/custom-dashboard.js"></script>
+    <script type="text/javascript" src="../assets/js/script.js"></script>
+    <script type="text/javascript " src="../assets/js/SmoothScroll.js"></script>
+    <script src="../assets/js/pcoded.min.js"></script>
+    <script src="../assets/js/demo-12.js"></script>
+    <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+
+    <script src="../assets/datatables/js/jquery.dataTables.min.js"></script>
+	<script src="../assets/datatables/js/dataTables.bootstrap4.min.js"></script>
+	<script src="../assets/datatables/js/dataTables.responsive.min.js"></script>
+	<script src="../assets/datatables/js/responsive.bootstrap4.min.js"></script>
+
+	<script src="../assets/datatables/js/dataTables.buttons.min.js"></script>
+	<script src="../assets/datatables/js/buttons.bootstrap4.min.js"></script>
+	<script src="../assets/datatables/js/buttons.print.min.js"></script>
+	<script src="../assets/datatables/js/buttons.html5.min.js"></script>
+	<script src="../assets/datatables/js/buttons.flash.min.js"></script>
+	<script src="../assets/datatables/js/pdfmake.min.js"></script>
+	<script src="../assets/datatables/js/vfs_fonts.js"></script>
+
+	<script src="../assets/datatables/js/datatable-setting.js"></script>
+
+</body>
+</html>
